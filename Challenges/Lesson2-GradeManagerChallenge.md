@@ -1,4 +1,3 @@
-
 # Student Grade Management System Challenge
 
 ## Your Mission
@@ -59,7 +58,7 @@ You will build a system that can:
 ### Challenge 5: Student Report Generator
 **Write a function:**
 - Function name: `generate_report`
-- Parameters: student database, student ID
+- Parameters: students (your data structure), student ID
 - Should display: student name, ID, all grades, average, letter grade
 - Should handle case where student doesn't exist
 
@@ -80,6 +79,7 @@ Individual Grades:
 ### Challenge 6: Class Overview
 **Write a function:**
 - Function name: `class_statistics`
+- Parameters: students (your data structure)
 - Should calculate and display:
   - Total number of students
   - Class average grade
@@ -230,4 +230,3 @@ If you get stuck:
 5. Raise your hand for teacher assistance
 
 Remember: There are multiple correct ways to solve this problem. Focus on making your solution work well with your chosen data structure!
-````
