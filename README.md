@@ -1,4 +1,3 @@
-# Welcome to my test repo
+# A Level Computer Science Repo - Bishop's Stortford College
 
-1. This is item 1
-2. 2. Item 2
+A Level Computer Science at the College - resources and task repo for students to clone
