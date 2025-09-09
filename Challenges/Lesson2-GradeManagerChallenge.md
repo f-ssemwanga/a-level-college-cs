@@ -1,4 +1,4 @@
-````markdown
+
 # Student Grade Management System Challenge
 
 ## Your Mission
