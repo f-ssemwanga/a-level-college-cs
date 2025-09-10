@@ -1,4 +1,4 @@
-````markdown
+
 # Git & GitHub SSH Setup Guide (School Devices)
 
 This guide shows you how to set up Git and GitHub with SSH keys on managed school computers. SSH keys provide secure authentication without needing to enter passwords repeatedly.
