@@ -1,3 +1,4 @@
+````markdown
 # Git & GitHub SSH Setup Guide (School Devices)
 
 This guide shows you how to set up Git and GitHub with SSH keys on managed school computers. SSH keys provide secure authentication without needing to enter passwords repeatedly.
@@ -138,10 +139,13 @@ Navigate to your cloned repository and test pushing:
 
 ```bash
 cd a-level-college-cs
-git add .
+echo "# Test file" > test.txt
+git add test.txt
 git commit -m "Test commit from school device"
 git push origin main
 ```
+
+If successful, you should see output confirming the push completed.
 
 ---
 
@@ -207,3 +211,4 @@ git push
 4. **Ask for help** during class if stuck
 
 **Remember:** SSH setup is a one-time process per device. Once configured, Git operations will work seamlessly!
+````
