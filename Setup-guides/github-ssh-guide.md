@@ -1,4 +1,3 @@
-
 # Git & GitHub SSH Setup Guide (School Devices)
 
 This guide shows you how to set up Git and GitHub with SSH keys on managed school computers. SSH keys provide secure authentication without needing to enter passwords repeatedly.
@@ -25,14 +24,21 @@ git config --global --list
 
 ## Step 2: Generate SSH Key
 
-Create a new SSH key pair. Replace with **your actual GitHub email**:
+Create a new SSH key pair in your home directory. Replace with **your actual GitHub email**:
 
 ```bash
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
+**Important:** When prompted for the file location, press **Enter** to use the default location:
+```
+/c/Users/YourUsername/.ssh/id_ed25519
+```
+
+This saves your SSH key in **your user profile folder** (not system directories which are read-only on school devices).
+
 **When prompted:**
-- **File location:** Press Enter (uses default location)
+- **File location:** Press Enter (uses default: `/c/Users/$USERNAME/.ssh/`)
 - **Passphrase:** Press Enter twice (no passphrase for school use)
 
 **Expected output:**
@@ -40,6 +46,8 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 Your identification has been saved in /c/Users/YourUsername/.ssh/id_ed25519
 Your public key has been saved in /c/Users/YourUsername/.ssh/id_ed25519.pub
 ```
+
+**Note:** `$USERNAME` will be your Windows login name (e.g., `ssemwangaf`).
 
 ---
 
